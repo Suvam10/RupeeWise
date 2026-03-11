@@ -1,0 +1,5 @@
+{
+  "name": "RupeeWise - Global Currency to INR Calculator",
+  "description": "A feature-rich currency calculator that converts any world currency into Indian Rupees with support for text-to-number input and Indian numbering system words.",
+  "requestFramePermissions": []
+}

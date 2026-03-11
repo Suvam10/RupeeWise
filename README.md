@@ -1,11 +1,44 @@
-<div align="center">
+# RupeeWise - Global Currency to INR Calculator
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+RupeeWise is a feature-rich web-based currency calculator designed to convert any world currency into Indian Rupees (INR) with precision and ease.
 
-  <h1>Built with AI Studio</h2>
+## Features
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+- **Searchable Currency List**: Select from over 150 global currencies with country flags.
+- **Dual Input Modes**: Enter amounts numerically or using English text (e.g., "twelve thousand").
+- **Real-time Rates**: Fetches the latest exchange rates dynamically.
+- **Indian Numbering System**: Displays results in standard format (₹12,50,000) and Indian words ("Twelve Lakh Fifty Thousand Rupees").
+- **Modern UI**: Clean, responsive design with Dark and Light mode support.
+- **Utility Tools**: Swap currencies, copy results to clipboard, and refresh rates instantly.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Tech Stack
 
-</div>
+- **React 19**
+- **TypeScript**
+- **Tailwind CSS 4**
+- **Motion** (for animations)
+- **Lucide React** (for icons)
+- **Fawazahmed0 Currency API** (for exchange rates)
+
+## Running Locally
+
+To run this application on your local machine, follow these steps:
+
+1. **Clone the repository** (or download the source code).
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+3. **Start the development server**:
+   ```bash
+   npm run dev
+   ```
+4. **Open your browser** and navigate to `http://localhost:3000`.
+
+## Building for Production
+
+To create a production-ready build:
+```bash
+npm run build
+```
+The output will be in the `dist/` directory.
